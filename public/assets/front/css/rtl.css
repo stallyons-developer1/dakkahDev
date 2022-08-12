@@ -1,0 +1,180 @@
+.courses .col-city {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.courses .search-bar-form input {
+    padding: 7px 30px;
+}
+.courses-single .post-details .post-content p {
+    padding-right: 0 !important;
+    padding-left: 20px !important;
+}
+.courses .col-city {
+    margin-right: 20px !important;
+}
+.header .inner-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.newsletter-form input.email {
+    padding: 22.5px 50px 22.5px 40px !important;
+}
+.newsletter-form button.email-btn {
+    left: 0px !important;
+    right: unset !important;
+}
+.txt-Div ul {
+    float: right !important;
+}
+.tab {
+    float: right !important;
+}
+.main .inner-main {
+    display: flex !important;
+    flex-direction: row !important;
+}
+.contact-us .inner-contact-us {
+    display: flex;
+}
+.contact-us .inner-contact-us .first{
+    margin-right:0px !important;
+    margin: 0 auto !important; 
+}
+.header .col-logo {
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-info .footer-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.footer .footer-info .footer-info-inner {
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+.logo {
+    width: 100%;
+    max-width: 80px;
+    float: left;
+}
+.logo a {
+    width: 100%;
+}
+.logo a img {
+    width: 100%;
+}
+.inner-single {
+    flex-direction: row-reverse !important;
+    display: flex !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    a.toggle-button {
+        display: block !important;
+        right: unset;
+        left: 50px;
+    }
+    .main .inner-main {
+        flex-direction: column !important;
+    }
+    .col-menu ul li.menu a:before {
+        bottom: 10px !important;
+    }
+    .courses .col-city {
+        margin-right: 0 !important;
+    }
+    .courses .search-bar-form input {
+        padding: 10px 30px !important;
+    }
+    .courses .search-bar select {
+        padding: 10px 24px;
+    }
+    .newsletter-form button.email-btn {
+        padding: 20px 26px !important;
+    }
+    .slider .search-form button.search-btn {
+        right: unset !important;
+        LEFT: 0 !important;
+        top: 1px !important;
+    }
+    h2.dakkah-heading {
+        padding: 0 40px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .dakkah .col-blog .img-box-text p {
+        text-align: right;
+    }
+    .dakkah .img-box-text {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .dakkah .col-blog .img-box-text a {
+        width: fit-content !important;
+    }
+    .courses-single .inner-single {
+        flex-direction: column !important;
+    }
+    .courses .search-bar select {
+        padding: 10px 20px !important;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .slider form.search-form {
+        width: 80% !important;
+    }
+    .slider .search-form button.search-btn {
+        left: 10px !important;
+        right: unset !important;
+    }
+    
+    .col-menu ul li.login a {
+        padding: 10px 20px !important;
+    }
+    .courses form.search-bar-form {
+        width: 100% !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .courses-single .inner-single .col-left {
+        width: 30% !important;
+    }
+    .courses-single .inner-single .col-right {
+        flex-direction: row-reverse !important;
+        display: flex !important;
+        width: 70% !important;
+    }
+    .courses-single .inner-single .col-right .post-details{
+        flex-direction: row-reverse !important;
+    }
+    .post-content {
+        padding: 0 20px;
+    }
+    .courses-single .inner-single .col-right .post-details .post-img {
+        margin-right: 15px !important;
+    }
+    .courses-single .inner-single .col-right .post-details .post-img {
+        width: 100% !important;
+        max-width: 190px !important;
+    }
+    .courses-single .inner-single .col-right .post-details .post-img img {
+        FLOAT: LEFT;
+        max-width: 150px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {}

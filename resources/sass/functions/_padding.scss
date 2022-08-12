@@ -1,0 +1,39 @@
+/* 3.3 padding */
+@mixin make-padding($num) {
+
+  // generating margin classes in px
+  .pd-#{$num} {
+    padding: #{$num}px;
+  }
+  .pd-t-#{$num} {
+    padding-top: #{$num}px;
+  }
+  .pd-b-#{$num} {
+    padding-bottom: #{$num}px;
+  }
+  .pd-r-#{$num} {
+    padding-right: #{$num}px;
+  }
+  .pd-l-#{$num} {
+    padding-left: #{$num}px;
+  }
+  .pd-x-#{$num} {
+    padding-left: #{$num}px;
+    padding-right: #{$num}px;
+  }
+  .pd-y-#{$num} {
+    padding-top: #{$num}px;
+    padding-bottom: #{$num}px;
+  }
+
+
+}
+
+// generating margin class from 5 to 100
+$num: 0;
+@while $num <= 100 {
+  @include make-padding($num);
+  $num: $num + 5;
+}
+
+
